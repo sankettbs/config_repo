@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.StudentProjectApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.662 s <<< FAILURE! - in com.example.demo.StudentProjectApplicationTests
+contextLoads  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Unable to load config data from 'configserver:http://localhost:8001'
+Caused by: java.lang.IllegalStateException: File extension is not known to any PropertySourceLoader. If the location is meant to reference a directory, it must end in '/' or File.separator
+

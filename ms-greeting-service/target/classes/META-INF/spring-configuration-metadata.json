@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "noofmonths",
+      "type": "com.example.demo.controller.DBController",
+      "sourceType": "com.example.demo.controller.DBController"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

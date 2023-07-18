@@ -1,0 +1,19 @@
+server:
+  port: 8084
+  
+spring:
+  application:
+    name: ms-mf-calendar
+  cloud:
+    config:
+      uri:
+      - http://10.24.0.12:9000
+      profile: dev
+      label: tbs
+      name: ms-mf-calendar
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
